@@ -40,13 +40,12 @@
   Timer/AIT.h
   Timer/AIT.c
 
-# Fixme
-
 [Packages]
   AptioFixPkg/AptioFixPkg.dec
   EfiPkg/EfiPkg.dec
   MdeModulePkg/MdeModulePkg.dec
   MdePkg/MdePkg.dec
+  OcSupportPkg/OcSupportPkg.dec
 
 [LibraryClasses]
   BaseMemoryLib
