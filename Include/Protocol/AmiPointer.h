@@ -33,7 +33,10 @@ typedef struct {
   INT32        PositionZ;
 } AMI_POINTER_POSITION_STATE_DATA;
 
-VERIFY_SIZE_OF(AMI_POINTER_POSITION_STATE_DATA, 16);
+STATIC_ASSERT (
+  sizeof (AMI_POINTER_POSITION_STATE_DATA) == 16,
+  "AMI_POINTER_POSITION_STATE_DATA is expected to be 16 bytes"
+  );
 
 // Unless Changed == 1, no data is provided
 typedef struct {
@@ -43,7 +46,10 @@ typedef struct {
   UINT8        RightButton;
 } AMI_POINTER_BUTTON_STATE_DATA;
 
-VERIFY_SIZE_OF(AMI_POINTER_BUTTON_STATE_DATA, 4);
+STATIC_ASSERT (
+  sizeof (AMI_POINTER_BUTTON_STATE_DATA) == 4,
+  "AMI_POINTER_BUTTON_STATE_DATA is expected to be 4 bytes"
+  );
 
 typedef VOID (EFIAPI *AMI_EFIPOINTER_RESET) (
   IN AMI_EFIPOINTER_PROTOCOL  *This
