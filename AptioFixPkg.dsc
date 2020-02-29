@@ -27,7 +27,7 @@
   BaseRngLib|MdePkg/Library/BaseRngLib/BaseRngLib.inf
   BaseMemoryLib|MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
   CpuLib|MdePkg/Library/BaseCpuLib/BaseCpuLib.inf
-  DebugLib|OcSupportPkg/Library/OcDebugLogLib/OcDebugLogLib.inf
+  DebugLib|OpenCorePkg/Library/OcDebugLogLib/OcDebugLogLib.inf
   DebugPrintErrorLevelLib|MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib.inf
   PrintLib|MdePkg/Library/BasePrintLib/BasePrintLib.inf
   DevicePathLib|MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib.inf
@@ -44,16 +44,16 @@
   IoLib|MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsic.inf
   PciCf8Lib|MdePkg/Library/BasePciCf8Lib/BasePciCf8Lib.inf
   PciLib|MdePkg/Library/BasePciLibCf8/BasePciLibCf8.inf
-  OcDevicePathLib|OcSupportPkg/Library/OcDevicePathLib/OcDevicePathLib.inf
-  OcDeviceTreeLib|OcSupportPkg/Library/OcDeviceTreeLib/OcDeviceTreeLib.inf
-  OcFileLib|OcSupportPkg/Library/OcFileLib/OcFileLib.inf
-  OcGuardLib|OcSupportPkg/Library/OcGuardLib/OcGuardLib.inf
-  OcMachoLib|OcSupportPkg/Library/OcMachoLib/OcMachoLib.inf
-  OcMiscLib|OcSupportPkg/Library/OcMiscLib/OcMiscLib.inf
-  OcStringLib|OcSupportPkg/Library/OcStringLib/OcStringLib.inf
-  OcTimerLib|OcSupportPkg/Library/OcTimerLib/OcTimerLib.inf
-  OcDataHubLib|OcSupportPkg/Library/OcDataHubLib/OcDataHubLib.inf
-  OcCpuLib|OcSupportPkg/Library/OcCpuLib/OcCpuLib.inf
+  OcDevicePathLib|OpenCorePkg/Library/OcDevicePathLib/OcDevicePathLib.inf
+  OcDeviceTreeLib|OpenCorePkg/Library/OcDeviceTreeLib/OcDeviceTreeLib.inf
+  OcFileLib|OpenCorePkg/Library/OcFileLib/OcFileLib.inf
+  OcGuardLib|OpenCorePkg/Library/OcGuardLib/OcGuardLib.inf
+  OcMachoLib|OpenCorePkg/Library/OcMachoLib/OcMachoLib.inf
+  OcMiscLib|OpenCorePkg/Library/OcMiscLib/OcMiscLib.inf
+  OcStringLib|OpenCorePkg/Library/OcStringLib/OcStringLib.inf
+  OcTimerLib|OpenCorePkg/Library/OcTimerLib/OcTimerLib.inf
+  OcDataHubLib|OpenCorePkg/Library/OcDataHubLib/OcDataHubLib.inf
+  OcCpuLib|OpenCorePkg/Library/OcCpuLib/OcCpuLib.inf
   SerialPortLib|MdeModulePkg/Library/BaseSerialPortLib16550/BaseSerialPortLib16550.inf
   PlatformHookLib|MdeModulePkg/Library/BasePlatformHookLibNull/BasePlatformHookLibNull.inf
 
