@@ -15,7 +15,7 @@ WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
 #include <Uefi.h>
 
 #include <Guid/GlobalVariable.h>
-#include <Acidanthera/Guid/OcVariables.h>
+#include <Guid/OcVariable.h>
 
 #include <Library/UefiLib.h>
 #include <Library/BaseMemoryLib.h>
